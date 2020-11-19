@@ -1,0 +1,152 @@
+.images-top{
+    min-height: 10vh;
+    display: flex;
+   justify-content: space-around;
+   padding: 50px;
+    
+}
+.images-bottom{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.image-container-top{
+    height: 740px;
+    width: 500px;
+    position: relative;
+}
+.image-container-bottom{
+    
+    height: 740px;
+    width: 500px;
+    position: relative;
+}
+
+.image-container-top img{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    border-radius: 1%; 
+}
+.image-container-bottom img{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    border-radius: 1%; 
+}
+.street{
+    opacity: 0.9;
+    transition: opacity 0.5s ease;
+}
+.street:hover{
+    opacity: 1;
+}
+.street::after {
+    content: "Street";
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    border-radius: 1%; 
+    height: 740px;
+    width: 500px;
+    transition: opacity 0.5s ease;
+  }
+
+.street:hover::after{ 
+    opacity: 0;
+}
+.people{
+    opacity: 0.9;
+    transition: opacity 0.5s ease;
+}
+.people:hover{
+    opacity: 1;
+}
+.people::after {
+    content: "People";
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    border-radius: 1%; 
+    height: 740px;
+    width: 500px;
+    transition: opacity 0.5s ease;
+  }
+
+.people:hover::after{ 
+    opacity: 0;
+}
+.cars{
+    opacity: 0.9;
+    transition: opacity 0.5s ease;
+}
+.cars:hover{
+    opacity: 1;
+}
+.cars::after {
+    content: "Cars";
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    border-radius: 1%; 
+    height: 740px;
+    width: 500px;
+    transition: opacity 0.5s ease;
+  }
+
+.cars:hover::after{ 
+    opacity: 0;
+}
+.nature{
+    opacity: 0.9;
+    transition: opacity 0.5s ease;
+}
+.nature:hover{
+    opacity: 1;
+}
+.nature::after {
+    content: "Nature";
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    border-radius: 1%; 
+    height: 740px;
+    width: 500px;
+    transition: opacity 0.5s ease;
+  }
+
+.nature:hover::after{ 
+    opacity: 0;
+}

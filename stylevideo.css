@@ -1,0 +1,10 @@
+
+.videos{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.videos iframe{
+    border-radius: 1%;
+}
