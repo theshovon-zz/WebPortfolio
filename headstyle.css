@@ -2,12 +2,14 @@ nav{
     display: flex;
     justify-content: space-around;
     min-height: 8vh;
+    padding-bottom: 20px;
 }
 .nav-links{
     display: flex;
     justify-content: space-around;
     width: 20%;
     position: absolute;
+    top: 35px;
     right: 50px;
 }
 .nav-links li{
@@ -23,8 +25,8 @@ nav{
     text-decoration: none;
 }
 .logo{
-    height: 56px;
-    width: 350px;
+    height: 100px;
+    width: 100px;
     position: absolute;
     left: 50px;
 

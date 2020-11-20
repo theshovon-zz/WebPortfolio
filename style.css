@@ -2,6 +2,7 @@
     min-height: 10vh;
     display: flex;
    justify-content: space-around;
+   flex-wrap: wrap;
    padding: 50px;
     
 }
@@ -16,7 +17,6 @@
     position: relative;
 }
 .image-container-bottom{
-    
     height: 740px;
     width: 500px;
     position: relative;
@@ -87,7 +87,7 @@
     height: 740px;
     width: 500px;
     transition: opacity 0.5s ease;
-  }
+}
 
 .people:hover::after{ 
     opacity: 0;
