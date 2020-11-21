@@ -9,12 +9,14 @@
 .images-bottom{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 50px;
 }
 .image-container-top{
     height: 740px;
     width: 500px;
     position: relative;
+    padding: 10px;
 }
 .image-container-bottom{
     height: 740px;
@@ -37,6 +39,7 @@
 .street{
     opacity: 0.9;
     transition: opacity 0.5s ease;
+
 }
 .street:hover{
     opacity: 1;
@@ -58,6 +61,7 @@
     height: 740px;
     width: 500px;
     transition: opacity 0.5s ease;
+   
   }
 
 .street:hover::after{ 
