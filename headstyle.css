@@ -3,6 +3,8 @@ nav{
     justify-content: space-around;
     min-height: 8vh;
     padding-bottom: 20px;
+    flex-wrap: wrap;
+
 }
 .nav-links{
     display: flex;
