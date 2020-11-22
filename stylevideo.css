@@ -1,11 +1,11 @@
-
-.videos{
-    min-height: 10vh;
-    display: flex;
-    justify-content: space-around;
-    padding: 50px;
-    flex-wrap: wrap;
+ .container-fluid{
+ padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+  
 }
-.videos iframe{
-    border-radius: 1%;
-}
+div iframe{
+    border-radius: 2%;
+} 
