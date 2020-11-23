@@ -1,51 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- My CSS -->
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./headstyle.css">
-    <title>Home</title>  
-    
+    <title>Home</title>
+
 </head>
 
 <body>
- <header>
-    <nav>
-        <a href="creative.html"><div class="logo"><img src="./newlogo.png" alt=""></div></a>
-        <ul class="nav-links">
-            <li class="v"><a href="./videography.html">Videography</a></li>
-            <li class="c"><a href="./contact.html">Contact Me</a></li>
-            <li><a href="https://www.instagram.com/thecreativeartist.ca"><img class="insta" src="./instalogo.png" alt=""></a></li>
-        </ul>
-    </nav>
- </header>
-<main>
-    <div class="images-top">
-        <a href="./portraits.html">
-            <div class="image-container-top people">
-                <img src="./Portraits/GirlsMountain.JPG" alt="">
+    <header>
+        <nav>
+            <a href="creative.html">
+                <div class="logo"><img src="./newlogo.png" alt=""></div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="./videography.html">Videography</a></li>
+                <li><a href="./contact.html">Contact Me</a></li>
+                <li><a href="https://www.instagram.com/thecreativeartist.ca"><img class="insta" src="./instalogo.png"
+                            alt=""></a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
             </div>
-        </a>
-        <a href="./street.html">
-            <div class="image-container-top street">
-                 <img src="./Street/vancouver.jpg" alt="">
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row justify-content-md-center">
+                <a href="./portraits.html">
+                    <div class="col people">
+                        <img src="./Portraits/GirlsMountain.JPG" class="img-fluid" alt="">
+                    </div>
+                </a>
+                <a href="./street.html">
+                    <div class="col street">
+                        <img src="./Street/blueClockVNC.jpg" class="img-fluid" alt="">
+                    </div>
+                </a>
             </div>
-        </a>
-    </div>
-
-    <div class="images-bottom">
-        <a href="./cars.html">
-            <div class="image-container-top cars">
-                <img src="./Car/Barbataus.jpg" alt="">
+            <div class="row justify-content-md-center">
+                <a href="./cars.html">
+                    <div class="col cars">
+                        <img src="./Car/Barbataus.jpg" class="img-fluid" alt="">
+                    </div>
+                </a>
+                <a href="./nature.html">
+                    <div class="col nature">
+                        <img src="./Nature/SnowMountains.jpg" class="img-fluid" alt="">
+                    </div>
+                </a>
             </div>
-        </a>
-        <a href="./nature.html">
-            <div class="image-container-top nature">
-                <img src="./Nature/SnowMountains.jpg" alt="">
-            </div>
-        </a>
-    </div>
-</main>
+        </div>
+    </main>
 </body>
+
 </html>
